@@ -4,6 +4,15 @@ body {
   background: #fff0f6;
   color: #5b2c3d;
 }
+.main-background{
+  background-image: url("../Images/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+  min-height: 100lvh;
+  display: flex;
+}
 .container {
   max-width: 1200px;
   margin: auto;
@@ -87,6 +96,68 @@ body {
     color: #333;
     ;
 }
+
+  h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #6b2b37;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  ul {
+    text-align: center;
+    padding-left: 20px;
+    color: #6b2b37;
+  }
+  
+  .team {
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .member {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    width: 250px;
+  }
+  
+  .member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  p {
+    text-align: center;
+    color: #6b2b37;
+  }
+  
+  .pink {
+    color: #e91e63;
+  }
+  
+  .blue {
+    color: #3f51b5;
+  }
+  
+  .fuchsia {
+    color: #d500f9;
+  }
 footer {
   background: #d48aa2;
   color: #5b2c3d;
@@ -116,4 +187,191 @@ footer {
 
 .social-icons img:hover {
   transform: scale(1.1);
+}
+/* Affichage mobile */
+@media (max-width: 768px) {
+  .menu-contact-wrapper {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+}
+/* Affichage mobile */
+@media (max-width: 768px) {
+  .menu-contact-wrapper {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+}
+
+/* Affichage desktop */
+@media (min-width: 769px) {
+  .menu-contact-wrapper {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-header {
+    display: none;
+  }
+}
+/* Structure générale */
+.top-bar {
+  padding: 10px 0;
+}
+
+.top-bar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.menu-toggle {
+  font-size: 28px;
+  cursor: pointer;
+  display: none; /* caché sur desktop */
+}
+
+.contact-header {
+  text-align: right;
+  font-size: 14px;
+}
+
+.contact-header p {
+  margin: 0;
+}
+
+.btn-devis a {
+  display: inline-block;
+  margin-top: 5px;
+  border: 2px solid #e91e63;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #e91e63;
+  font-weight: bold;
+}
+
+/* Menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #c2185b;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#navbar a:hover {
+  background-color: #d75987;
+  color: white;
+}
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    margin-left: 24px;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .contact-header {
+    display: none;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.getElementById("menu-toggle");
+      const navList = document.querySelector("nav ul");
+  
+      menuToggle.addEventListener("click", function () {
+        navList.classList.toggle("active");
+      });
+    });
+  </script>
 }

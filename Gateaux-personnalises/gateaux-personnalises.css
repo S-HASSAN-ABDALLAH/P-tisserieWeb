@@ -86,6 +86,7 @@ body {
     background-repeat: no-repeat;
     color: #333;
     ;
+
 }
 footer {
   background: #d48aa2;
@@ -116,4 +117,94 @@ footer {
 
 .social-icons img:hover {
   transform: scale(1.1);
+}
+.classiques {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.classiques h1 {
+  font-size: 42px;
+  color: #6b2b37;
+  margin-bottom: 10px;
+}
+
+.classiques h2 {
+  font-size: 20px;
+  color: #e91e63;
+  margin-bottom: 20px;
+}
+
+.classiques .description {
+  font-size: 16px;
+  color: #5b2c3d;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.grid-classiques {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.grid-classiques .card {
+  background: white;
+  border: 2px solid #e91e63;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 16px;
+  transition: transform 0.2s;
+}
+
+.grid-classiques .card:hover {
+  transform: scale(1.03);
+}
+
+.grid-classiques .card img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.grid-classiques .card p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+
+
+
+.cta {
+  margin-top: 50px;
+}
+
+.cta a {
+  background: #6b2b37;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+@media (max-width: 899px) {
+  .grid-classiques {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .grid-classiques {
+    grid-template-columns: 1fr;
+  }
+  }
+  .img-creation {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
 }
