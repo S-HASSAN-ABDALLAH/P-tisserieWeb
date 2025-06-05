@@ -6,7 +6,9 @@
   <title>Ma première page</title>
   <link rel="stylesheet" href="gouters-douceurs.css">
 </head>
-<header>
+
+<body>
+  <header>
     <div class="container top-bar">
       <div class="logo">
         <img src="../Images/logo.jpeg" alt="Logo du site" />
@@ -29,8 +31,6 @@
     </div> 
 
   </header>
-
-<body>
 
   <main>
     <section class="classiques">
@@ -89,6 +89,16 @@
       </div>
     </div>
   </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.getElementById("menu-toggle");
+      const navList = document.querySelector("nav ul");
+  
+      menuToggle.addEventListener("click", function () {
+        navList.classList.toggle("active");
+      });
+    });
+  </script>
    </body>
 
   </html>
