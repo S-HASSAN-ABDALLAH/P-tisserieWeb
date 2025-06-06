@@ -101,19 +101,23 @@ body {
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: #6b2b37;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   }
   
   h2 {
     text-align: center;
-    color: black;
+    color:#ea3580 ;
     font-weight: bold;
     margin-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   
   ul {
     text-align: center;
     padding-left: 20px;
     color: #6b2b37;
+    font-family:'cairo';
   }
   
   .team {
@@ -127,12 +131,13 @@ body {
   
   .member {
     text-align: center;
-    background: #fff;
+    background:#f0dbdf;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     width: 250px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .member img {
@@ -144,7 +149,11 @@ body {
   }
   p {
     text-align: center;
-    color: #6b2b37;
+    color: #814256;
+        font-family:'cairo';
+        
+
+    
   }
   
   .pink {
@@ -156,7 +165,7 @@ body {
   }
   
   .fuchsia {
-    color: #d500f9;
+    color: hsl(337, 82%, 56%);
   }
 footer {
   background: #d48aa2;
@@ -364,14 +373,4 @@ nav ul {
   .logo img {
     height: 50px;
   }
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const menuToggle = document.getElementById("menu-toggle");
-      const navList = document.querySelector("nav ul");
-  
-      menuToggle.addEventListener("click", function () {
-        navList.classList.toggle("active");
-      });
-    });
-  </script>
 }
