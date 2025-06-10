@@ -2,44 +2,41 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ma première page</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <meta name="description" content="Découvrez Sucre & Passion : atelier de pâtisserie artisanales à Grenoble, gâteaux faits maison, créations uniques et engagement local.">
+   <link rel="icon" href="../Images/logi1.png" type="image/png">
+  <title>Viennoiseries</title>
   <link rel="stylesheet" href="viennoiseries.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
+<header>
     <div class="container top-bar">
       <div class="logo">
-        <img src="../Images/logi1.png" alt="Logo du site" />
+        <img src="../Images/logo.jpeg" alt="Logo du site" loading="lazy" />
+        <div class="brand-name">Sucre & Passion</div>
       </div>
-      <div class="top-bar-row">
-    
-  
-        <!-- Burger visible seulement en mobile -->
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-  
-        <!-- Contact visible seulement en desktop -->
-      
-  
-      <!-- Menu navigation -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-toggle">&#9776;</label>
       <nav id="navbar">
         <ul>
           <li><a href="../Accueil/index.html">Accueil</a></li>
-          <li><a href="../Nos-creations/nos-creations.html">Nos créations</a></li>
-          <li><a href="../Atelier/atelier.html">L’atelier</a></li>
+           <li><a href="../Nos-creations/nos-creations.html">Nos créations</a></li>
+           <li><a href="../Atelier/atelier.html">L’atelier</a></li>
           <li><a href="../Contact/contact.html">Contact</a></li>
-          <li><a href="../Commande-Devis/commande-devis.html">Commande / Devis</a></li>
+          <!-- <li><a href="../Commande-Devis/commande-devis.html">Commande / Devis</a></li> -->
         </ul>
       </nav>
-    </div>
-    <div class="contact-header">
-      <p><strong>Appelez-nous <span class="pink">7/7j</span> au :</strong><br/>04 55 66 77 88</p>
-      <div class="btn-devis"><a href="https://docs.google.com/forms/d/1oFr1IloiZHC0haojFKm8gYxGsyQXP3nB415LkoLhbL4/edit?pli=1">Commande / Devis</a></div>
-    </div>
+      <div class="right">
+        <div class="contact-header">
+       <p> 📞 <strong>Appelez-nous</strong> <span class="pink">7/7j</span><strong> au :</strong><br /> 04 55 66 77 88
+</p></div>
+  <div class="btn-devis">
+  <a href="../Commande-Devis/commande-devis.html">Commande / Devis</a>
   </div>
-  </header>
-
+  </div>
+</header>
   <main>
     <section class="classiques">
       <h1>Viennoiseries maison</h1>
