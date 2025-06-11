@@ -198,14 +198,16 @@ nav ul li a {
   
   .contact-section {
     max-width: 600px;
+    margin: auto;
     text-align: center;
     z-index: 1;
   }
   
   .contact-section h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-    color: #c2185b; 
+    font-size: 30px;
+     margin-bottom: 25px; 
+    color: #e91e63; 
+    text-shadow: 1px 1px 2px #f8c3d4;
 }
 
   
@@ -239,11 +241,17 @@ nav ul li a {
   }
   
   /* Images décoratives */
-  .macarons-deco,
+  .macarons-deco {
+    width: 280px;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
   .patisserie-deco {
-    max-width: 250px;
+    max-width: 260px;
     height: auto;
-     margin-right: 5rem; 
+     /* margin-right: 5rem;  */
+     margin-right: 20px;
+     margin-top: 40px;
     
   }
   
@@ -363,3 +371,130 @@ nav ul li a {
   }
 
 }
+#menu-toggle {
+  display:none;
+}
+  @media (max-width: 768px){
+    #menu-toggle {
+      display:block;
+    }
+    .menu-toggle {
+      display: block;
+      background: none;
+  border: none;
+  color: #c2185b;
+  font-size: 28px;
+  cursor:pointer;
+    }
+  }
+    @media (max-width:768px){
+      footer {
+        padding: 12px 10px;
+      }.footer-container{
+        padding: 0;
+        gap: 6px;
+      }
+      /* .footer-container { */
+        /* gap: 10px; */
+      /* } */
+      .footer-container p {
+        font-size: 13px;
+        line-height: 1.4;
+      }
+      .footer-container a {
+        font-size: 12px;
+        margin: 0 3px;
+        color: #fff;
+      }
+      .social-icons {
+        gap: 12px;
+        margin-top: 8px;
+      }
+      .social-icons img {
+        width: 24px;
+        height: 24px;
+      }
+      .footer-note {
+        font: size 11px; 
+        color: #fce4ec;
+        margin-top: 4px;
+      }
+    }
+
+    @media (max-width: 768px) {
+
+  /* ✅ تنسيق القسم الرئيسي */
+  main {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    /* padding: 10px; */
+    gap: 30px;
+  }
+  .macarons-deco,
+  .patisserie-deco {
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* ✅ تنسيق قسم الاتصال */
+  .contact-section {
+    max-width: 700px;
+    margin: auto;
+    /* text-align: center; */
+    padding: 30px 20px;
+    /* font-size: 15px; */
+  }
+
+  .contact-section h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .contact-section .intro {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  /* ✅ تصغير وتوسيط الصور */
+  .macarons-deco,
+  .patisserie-deco {
+    width: 60%;
+    max-width: 280px;
+    display: block;
+    /* margin: 15px auto; */
+    margin: 20px auto;
+  }
+  .contact-section {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .contact-section h1 {
+    font-size: 22px;
+  }
+
+  /* ✅ تحسين عرض العناوين والفقرات */
+  .contact-section p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+
+  /* ✅ تقليل حجم النصوص في الفوتر */
+  footer {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .footer-container {
+    padding: 10px;
+  }
+
+  .social-icons img {
+    width: 28px;
+    height: 28px;
+  }
+}
+  
+  

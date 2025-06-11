@@ -16,19 +16,20 @@ Bienvenue dans ce projet de site vitrine réalisé dans le cadre de ma formation
 ## 📁 Arborescence du projet
 
 ```bash
-📂 PÂTISSERIE/
+📂 PÂTISSERIEWEB/
 ├── Accueil/
-├── Atelier/
-├── Chocolats-confiseries/
-├── Commande-Demande/
-├── Contact/
-├── Gateaux-personnalises/
-├── Gouters-douceurs/
-├── Images/
-├── Macarons-mignardises/
 ├── Nos-creations/
-├── Patisseries-classiques/
-└── Viennoiseries/
+│   ├── Patisseries-classiques/
+│   ├── Gateaux-personnalises/
+│   ├── Macarons-mignardises/
+│   ├── Chocolats-confiseries/
+│   ├── Viennoiseries/
+│   └── Gouters-douceurs/
+├── Atelier/
+├── Contact/
+├── Commande-Devis/
+└── Images/
+
 ```
 
 Chaque dossier contient une page `.html` et éventuellement des fichiers CSS ou images liés.
