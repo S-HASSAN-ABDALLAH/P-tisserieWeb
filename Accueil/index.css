@@ -285,14 +285,26 @@ margin-left: 20px;
     .hero-text p{
       font-size: 15px;
     }
+    .buttons{
+      flex-direction:column;
+      align-items: center;
+    }
+      .buttons a {
+        display: inline-block;
+        width: auto;
+        padding: 6px 12px;
+        font-size: 14px;
+        margin:5px;
+        text-align: center;
+    }
   }
   
-  .buttons a {
-    display: block;
-    margin: 10px auto;
-    width: 80%;
-    text-align: center;
-  }
+  /* .buttons a { */
+    /* display: block; */
+    /* margin: 10px auto; */
+    /* width: 80%; */
+    /* text-align: center; */
+  
 
 .hero-img {
    width: 90%;
