@@ -68,9 +68,8 @@ Le site s’adapte aux différents écrans (ordinateur, tablette, smartphone) gr
 
 ---
 
-## 📸 Aperçu visuel
-
-Ajoutez ici une capture d’écran du site ou une maquette si disponible.
+## 📸 Aperçu
+![Capture d’écran du jeu](./Images/cake.png)
 
 ---
 
@@ -84,19 +83,14 @@ Ce projet m’a permis de :
 
 ---
 
-## 🔧 Améliorations futures
 
-- Ajout d'animations CSS
-- Optimisation des images
-- Ajout d'un formulaire fonctionnel (via PHP ou autre)
-- Intégration d’un système de commande
+
+## 🔗 Lien du projet
+[👉 Voir le projet en ligne](https://example.com)
 
 ---
 
-## 📄 Licence
-
-Projet pédagogique – non destiné à un usage commercial.
-
----
+## 👩‍💻 Auteur
+- **Shadah HASSAN-ABDALLAH**
 
 ✨ *Merci de visiter cet univers sucré !*
