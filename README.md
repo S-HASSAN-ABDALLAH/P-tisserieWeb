@@ -86,7 +86,7 @@ Ce projet m’a permis de :
 
 
 ## 🔗 Lien du projet
-[👉 Voir le projet en ligne](https://example.com)
+[👉 Voir le projet en ligne](https://patisserie-web.netlify.app/)
 
 ---
 
